@@ -1,8 +1,8 @@
 job('node-express') {
     scm {
-        git('https://github.com/lbounif/deploy-example.git') {  node -> // is hudson.plugins.git.GitSCM
-            node / gitConfigName('Lynda Bounif')
-            node / gitConfigEmail('l_bounif@esi.dz')
+        git('https://github.com/lyes-boudia/deploy.git') {  node -> // is hudson.plugins.git.GitSCM
+            node / gitConfigName('Lyes Boudia')
+            node / gitConfigEmail('lyes.boudia@gmail.com')
         }
     }
     triggers {
